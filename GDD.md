@@ -1,6 +1,6 @@
 # Sobre
 
-Controle um alienígena que engole e cospe balas e tente sobreviver.
+Controle um alienígena exilado que engole e cospe balas e tente fugir de um planeta hostil.
 Boca de lata é um jogo de ação/bullet hell com elementos de sobrevivencia de ondas.
 
 # Mecânicas
@@ -21,6 +21,11 @@ Boca de lata é um jogo de ação/bullet hell com elementos de sobrevivencia de 
 
 - Comer balas
     - é possivel comer as balas que estão no seu estomago para ganhar vida
+
+- Entrar dentro da terra
+    - ganha 5 balas - pedras
+    - "teletransporta" pra posição do mouse
+    - 30 segundos de cooldown
 
 ## Condição de vitoria
 
@@ -92,15 +97,13 @@ Por fora seu corpo é fragil, porem seus orgãos são extremamente fortes, conse
 
 # Fases
 
-1. Deserto
+1. Sertão
     - cenario
         Nave do alienigena dentro e uma cratera
     - inimigos
         - caipiras
-    - historia
-        aa
 
-2. Cidade pequena
+2. Floresta
     - cenario
         Cidade caipira 
     - inimigos
@@ -109,85 +112,45 @@ Por fora seu corpo é fragil, porem seus orgãos são extremamente fortes, conse
     - historia
         aa
 
-3. Floresta
+3. Cidade pequena
     - inimigos
         - caipiras
         - policiais
         - swat
-    - historia
-        aa
 
-4. Cidade media
+4. Cidade grande - Pelourinho
     - inimigos
         - policiais
         - swat
         - sniper
-    - historia
-        aa
 
-5. Cidade grande
-    - inimigos
-        - policiais
-        - swat
-        - sniper
-    - historia
-        aa
-
-6. Cidade grande
-    - inimigos
-        - policiais
-        - swat
-        - sniper
-        - jipe do exercito
-    - historia
-        aa
-
-7. Cidade grande
-    - inimigos
-        - policiais
-        - swat
-        - sniper
-        - jipe do exercito
-    - historia
-        aa
-
-8. Cidade grande
-    - inimigos  
-        - policiais
-        - swat
-        - sniper
-        - jipe do exercito
-        - tanque de guerra
-    - historia
-        aa
-
-9. Cidade grande
-    - inimigos
-        - policiais
-        - swat
-        - sniper
-        - jipe do exercito
-        - alienigena
-    - historia
-        aa
-
-10. Lugar cientifico
+5. Lugar cientifico
     - inimigos
         - alienigena
         - tanque de guerra
         - metal gear
-    - historia
-        aa
 
-11. Encerramento
+6. Encerramento
     - Alien consegue ir embora da terra
 
 # UI
 - no canto inferior é possivel ver as balas que estão dentro da barriga do personagem
 
-# Arte
-3D low poly, baixa definição texturas
+# New game+
 
+Coisas que são liberadas apos fechar o jogo pela primeira vez
+
+## Modo desafio
+
+- limite de 10 coisas na barriga
+- apenas uma vida
+- não poder regenerar vida
+
+# Arte
+3D low poly cartoonnizado, baixa definição texturas
+
+## Referencias
+Bob esponja
 # Plataformas
 
 ## WEBGL - itchio
@@ -199,4 +162,4 @@ Caso dê algum dinheiro, irei portar para binario e lançar na Steam com melhori
 # Monetização
 - Será vendido no itch.io por US$ 2,00.
 
-- Será vendido na steam por US$ 3,00.
+- Será vendido na steam por US$ 2,00.
